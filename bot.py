@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandle
 
 from handlers import tiktok, youtube, instagram, twitter
 import os
-BOT_TOKEN = os.environ["8451904354:AAEsz-YcxuQIqzit0No9SiVkkl9cm9CCcro"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 user_context = {}  # stores what platform user selected
 
