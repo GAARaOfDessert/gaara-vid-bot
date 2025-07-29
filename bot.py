@@ -4,7 +4,6 @@ from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandle
 
 from handlers import tiktok, youtube, instagram, twitter
 
-
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 user_context = {}
 
