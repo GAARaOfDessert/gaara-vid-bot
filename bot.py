@@ -3,10 +3,6 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, MessageHandler, ContextTypes, filters
 
 from handlers import tiktok, youtube, instagram, twitter
-from handlers.TikTok import your_function_name
-from handlers.Instagram import your_function_name
-from handlers.Twitter import your_function_name
-from handlers.YouTube import your_function_name
 
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
