@@ -1,1 +1,1 @@
-# empty init file to mark folder as a module
+touch handlers/__init__.py
