@@ -2,8 +2,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, MessageHandler, ContextTypes, filters
 
 from handlers import tiktok, youtube, instagram, twitter
-
-BOT_TOKEN = "8451904354:AAEsz-YcxuQIqzit0No9SiVkkl9cm9CCcro"
+import os
+BOT_TOKEN = os.environ["8451904354:AAEsz-YcxuQIqzit0No9SiVkkl9cm9CCcro"]
 
 user_context = {}  # stores what platform user selected
 
