@@ -1,11 +1,11 @@
+import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, MessageHandler, ContextTypes, filters
 
 from handlers import tiktok, youtube, instagram, twitter
-import os
-BOT_TOKEN = os.environ["BOT_TOKEN"]
 
-user_context = {}  # stores what platform user selected
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+user_context = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
